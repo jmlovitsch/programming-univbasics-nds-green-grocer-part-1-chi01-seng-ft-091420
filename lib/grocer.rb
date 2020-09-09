@@ -18,6 +18,7 @@ def find_item_by_name_in_collection(name, collection)
     if grocery_item[:item] == name 
       return grocery_item 
     end
+    nil
   end
 end
 
